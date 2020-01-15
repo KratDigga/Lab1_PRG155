@@ -1,0 +1,58 @@
+/*
+Description: Print Name, Student Id, Lecture Section, & Program ID
+Programmer: Hoshua Etienne
+Date : Jan 8th 2020
+Version 1.0
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void explainProg(void);
+
+int main(void) {
+
+	explainProg();
+
+	//int name, sID, lec_sec, pID
+
+	printf("\n");
+
+	printf("Name: Hoshua Etienne");
+	//scanf("&d", name);
+	printf("\n");
+
+	printf("Student ID: 142796184");
+	//scanf("&d", sID);
+	printf("\n");
+
+	printf("Lecture Section: NEF");
+	//scanf("&d", lec_sec);
+	printf("\n");
+
+	printf("Program ID: EET");
+	//scanf("&d", pID);
+	printf("\n");
+
+	system("pause");
+	return 0;
+}
+
+void explainProg(void) {
+
+	printf("\n\n\n\This program prints student Name, Student Id, Lecture Section, & Program ID\n");
+	system("pause");
+	system("cls");
+	return;
+}
+
+/* Output
+This program prints student Name, Student Id, Lecture Section, & Program ID
+Press any key to continue . . .
+
+Name: Hoshua Etienne
+Student ID: 142796184
+Lecture Section: NEF
+Program ID: EET
+Press any key to continue . . .
+*/
